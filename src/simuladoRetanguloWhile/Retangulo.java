@@ -17,7 +17,14 @@ public class Retangulo {
 			System.out.print("O valor deve ser positivo. Tente novamente: ");
 			largura = sc.nextInt();
 		}
-		
+		// leitura da altura com validacao
+		 
+		System.out.print("Digite a altura do retangulo: ");
+		altura = sc.nextInt();
+		while (altura <=0) {
+			System.out.print("O valor deve ser positivo. Tente novamente: ");
+			altura = sc.nextInt();
+		}
 		
 		sc.close();
 
